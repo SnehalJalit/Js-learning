@@ -1,0 +1,23 @@
+var greet ="Good Morning";
+var lengthGreet =greet.length;
+console.log(greet,'Length of string is:' ,lengthGreet);
+console.log(`----------------------------------------------------`);
+var charAt0=greet.charAt()
+console.log("GK");
+var charAt0=greet.charAt(0);
+console.log(`${greet}-char at 0th index is ${charAt0}`);
+var charAtLastIndex=greet.charAt(lengthGreet-1);
+console.log(`Last char is ${charAtLastIndex} of Index ${lengthGreet}`);
+console.log(`-------------------------------------------------------------`);
+var firstName="snehal";
+var lastName="jalit";
+var result=  firstName  +  lastName;
+console.log(`concated string is ${result}`);
+var res= firstName.concat(lastName);
+console.log(`my name is :${res}`);
+console.log(`-----------------------------`);
+var result=greet.indexOf(`M`);
+console.log(`index of char:${result}`);
+console.log(`------------------------------------`);
+var result=greet.lastIndexOf(greet);
+console.log(`last index is:${result}`);
