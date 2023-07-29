@@ -1,3 +1,4 @@
+console.log(`-------------------Assignment 1---------------------------`);
 function monthOfYear(month) {
     switch (month) {
         case 1:
