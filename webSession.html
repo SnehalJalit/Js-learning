@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Web Stroage Demo</h2>
+    <h3>Session Stroage </h3>
+</body>
+<script>
+    console.log("Session Storage");
+    
+    window.sessionStorage.setItem("firstName","Sachin");
+    window.sessionStorage.setItem("lastName","Tendulkar");
+    window.sessionStorage.setItem("country","India");
+    window.sessionStorage.setItem("runs","3500");
+    console.log(window.localStorage.length);
+    console.log(window.localStorage.getItem("firstName"));
+    console.log(window.localStorage.getItem("country"));
+    console.log(window.localStorage.getItem("lastName"));
+    window.sessionStorage.removeItem("runs");
+    console.log("Session Storage");
+
+</script>
+</html>
